@@ -6,7 +6,7 @@ from pyramid import testing
 class TestLogin(unittest.TestCase):
 
     def _callFUT(self, *args, **kwargs):
-        from shirly.login import login
+        from rebecca.login import login
         return login(*args, **kwargs)
 
     def test_no_user(self):
